@@ -41,12 +41,12 @@ printf( "\x1b}\x1b*U" );
 
 ## Fonts
 
-* [cp866.08](https://github.com/raspopov/loadfont/blob/main/fonts/cp866.08) — font 8x8, IBM 866 codepage (based on MS-DOS EGA3.CPI embedded font)
-* [cp866.14](https://github.com/raspopov/loadfont/blob/main/fonts/cp866.14) — font 8x14, IBM 866 codepage (based on MS-DOS EGA3.CPI embedded font)
-* [cp866.16](https://github.com/raspopov/loadfont/blob/main/fonts/cp866.16) — font 8x16, IBM 866 codepage (based on MS-DOS EGA3.CPI embedded font)
-* [cp1251.08](https://github.com/raspopov/loadfont/blob/main/fonts/cp1251.08) — font 8x8, Windows-1251 codepage (converted from cp866.08 by FontOemToANSI utility)
-* [cp1251.14](https://github.com/raspopov/loadfont/blob/main/fonts/cp1251.14) — font 8x14, Windows-1251 codepage (converted from cp866.14 by FontOemToANSI utility)
-* [cp1251.16](https://github.com/raspopov/loadfont/blob/main/fonts/cp1251.16) — font 8x16, Windows-1251 codepage (converted from cp866.16 by FontOemToANSI utility)
+* [cp866.08](https://github.com/raspopov/loadfont/raw/main/fonts/cp866.08) â€” font 8x8, IBM 866 codepage (based on MS-DOS EGA3.CPI embedded font)
+* [cp866.14](https://github.com/raspopov/loadfont/raw/main/fonts/cp866.14) â€” font 8x14, IBM 866 codepage (based on MS-DOS EGA3.CPI embedded font)
+* [cp866.16](https://github.com/raspopov/loadfont/raw/main/fonts/cp866.16) â€” font 8x16, IBM 866 codepage (based on MS-DOS EGA3.CPI embedded font)
+* [cp1251.08](https://github.com/raspopov/loadfont/raw/main/fonts/cp1251.08) â€” font 8x8, Windows-1251 codepage (converted from cp866.08 by FontOemToANSI utility)
+* [cp1251.14](https://github.com/raspopov/loadfont/raw/main/fonts/cp1251.14) â€” font 8x14, Windows-1251 codepage (converted from cp866.14 by FontOemToANSI utility)
+* [cp1251.16](https://github.com/raspopov/loadfont/raw/main/fonts/cp1251.16) â€” font 8x16, Windows-1251 codepage (converted from cp866.16 by FontOemToANSI utility)
 
 ### FontOemToANSI Utility
 
