@@ -45,7 +45,7 @@ int _tmain(int argc, TCHAR* argv[]) noexcept
 		return 1;
 	}
 
-	// Открытие файла
+	// РћС‚РєСЂС‹С‚РёРµ С„Р°Р№Р»Р°
 	FILE* infile = nullptr;
 	if ( _tfopen_s( &infile, argv[ 1 ], _T("rb") ) != 0 || infile == nullptr )
 	{
@@ -53,15 +53,15 @@ int _tmain(int argc, TCHAR* argv[]) noexcept
 		return 1;
 	}
 
-	// Определение длины файла
+	// РћРїСЂРµРґРµР»РµРЅРёРµ РґР»РёРЅС‹ С„Р°Р№Р»Р°
 	fseek( infile, 0, SEEK_END );
 	unsigned int FileSize = ftell( infile );
 	fseek( infile, 0, SEEK_SET );
 
-	// Вычисление высоты символа
+	// Р’С‹С‡РёСЃР»РµРЅРёРµ РІС‹СЃРѕС‚С‹ СЃРёРјРІРѕР»Р°
 	unsigned ScanLines = FileSize / 256u;
 
-	// Размер файла должен быть кратен 256
+	// Р Р°Р·РјРµСЂ С„Р°Р№Р»Р° РґРѕР»Р¶РµРЅ Р±С‹С‚СЊ РєСЂР°С‚РµРЅ 256
 	if ( ScanLines < 1u || ScanLines > 32u || FileSize != ScanLines * 256u )
 	{
 		_tprintf( _T("Wrong font file size: %u bytes\n"), FileSize );
@@ -82,7 +82,7 @@ int _tmain(int argc, TCHAR* argv[]) noexcept
 
 	fclose( infile );
 
-	// Открытие файла
+	// РћС‚РєСЂС‹С‚РёРµ С„Р°Р№Р»Р°
 	FILE* outfile = nullptr;
 	if ( _tfopen_s( &outfile, argv[ 2 ], _T("wb") ) != 0 || outfile == nullptr )
 	{
